@@ -1,0 +1,18 @@
+{
+  "name": "typescript",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "lint": "eslint --ext .tsx --ext .ts app/ --fix",
+    "tsc": "ts-node app/advanced-types/never-type/index.ts"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^18.15.11",
+    "ts-node": "^10.9.1",
+    "typescript": "4.8.4"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
