@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "lint": "eslint --ext .tsx --ext .ts app/ --fix",
-    "tsc": "ts-node app/advanced-types/never-type/index.ts"
+    "tsc": "ts-node app/advanced-types/exercises/index.ts"
   },
   "dependencies": {},
   "devDependencies": {
