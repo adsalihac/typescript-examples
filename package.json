@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "lint": "eslint --ext .tsx --ext .ts app/ --fix",
-    "tsc": "ts-node app/classes-interfaces-and-oop/exercises/index.ts"
+    "tsc": "ts-node app/generics/type-mapping/index.ts"
   },
   "devDependencies": {
     "@types/node": "^18.15.11",
